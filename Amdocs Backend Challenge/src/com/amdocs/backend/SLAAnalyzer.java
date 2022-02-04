@@ -20,7 +20,7 @@ public class SLAAnalyzer
     * @return Maximum date and time that problem should be solved
     */
     
-    public static LocalDateTime calculateSLA(LocalDateTime iOpeningDateTime, Integer iSLA)
+    public LocalDateTime calculateSLA(LocalDateTime iOpeningDateTime, Integer iSLA)
     {
     	
     	Set<LocalDate> holidays = new HashSet<>();
